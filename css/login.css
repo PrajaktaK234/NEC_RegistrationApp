@@ -1,0 +1,86 @@
+/* Login Page Styles */
+.login-container {
+    max-width: 400px;
+    background-color: #c2d2e1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-container .form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    font-weight: bold;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-container .btn-login {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.login-container .btn-login:hover {
+    background-color: #0056b3;
+}
+
+.login-container .register-link,
+.login-container .forgot-password-link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.login-container .register-link a,
+.login-container .forgot-password-link a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.login-container .register-link a:hover,
+.login-container .forgot-password-link a:hover {
+    text-decoration: underline;
+}
+
+/* Style the background image */
+.background-image {
+    background-image: url('logo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.background-image h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.background-image p {
+    font-size: 18px;
+}

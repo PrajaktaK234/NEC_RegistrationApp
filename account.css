@@ -1,0 +1,51 @@
+/* Add your existing CSS styles here */
+
+/* Styles for file upload forms */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="file"] {
+    display: block;
+    margin-top: 5px;
+}
+
+.btn-upload {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styles for displayed profile photo and document */
+.profile-photo img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 10px;
+}
+
+.document a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Styles for success and error messages */
+.success-message {
+    color: green;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}

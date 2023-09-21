@@ -1,0 +1,73 @@
+/* Registration Page Styles */
+
+/* Form Container */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+	
+}
+
+.form-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.btn-register {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn-register:hover {
+    background-color: #0056b3;
+}
+
+.form-links {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.form-links a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.form-links a:hover {
+    text-decoration: underline;
+}
+
+/* Error Messages */
+.error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
